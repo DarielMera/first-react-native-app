@@ -27,6 +27,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [[
+      "expo-image-picker",
+      {
+        "photoPermission": "This app uses your photo roll"
+      }
+    ]]
   }
 }
